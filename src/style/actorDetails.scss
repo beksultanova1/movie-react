@@ -1,0 +1,32 @@
+#actorDetails {
+  padding: 50px 0;
+  background:#022241;
+  color: white;
+  .actorDetails {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    img{
+      -webkit-box-shadow: 4px 4px 36px 35px rgba(60, 45, 224, 0.2);
+      -moz-box-shadow: 4px 4px 36px 35px rgba(5, 13, 105, 0.2);
+      box-shadow: 4px 4px 36px 35px rgba(44, 57, 190, 0.2);
+    }
+    &--info {
+      width: 60%;
+      h3 {
+        margin: 10px 0;
+      }
+      h6 {
+        color: white;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 15px;
+        margin-left: 80%;
+      }
+      &__about {
+        display: flex;
+        margin: 5px 30px 20px 0;
+      }
+    }
+  }
+}

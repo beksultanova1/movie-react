@@ -1,0 +1,28 @@
+@import "src/style/header";
+@import "src/style/footer";
+@import "src/style/home";
+@import "src/style/popular";
+@import "src/style/topRated";
+@import "src/style/movieDetails";
+@import "src/style/actors";
+@import "src/style/trailer";
+@import "src/style/actorDetails";
+@import "src/style/actorMovie";
+@import "src/style/search";
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#App{
+ background: #022241;
+}

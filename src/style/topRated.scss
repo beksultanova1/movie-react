@@ -1,0 +1,55 @@
+#topRated{
+  padding: 80px 0;
+  h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .topRated{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8rem;
+    .popular--card{
+      width: 25%;
+      img{
+        width: 100%;
+        border-radius: 20px;
+        -webkit-box-shadow: 1px -4px 29px 21px rgb(11, 69, 126);
+        -moz-box-shadow: 1px -4px 29px 21px rgb(11, 69, 126);
+        box-shadow: 1px -4px 29px 21px rgb(11, 69, 126);
+        border: 5px solid white;
+      }
+      h2{
+        background: #348ce5;
+        padding: 20px 30px;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: 900;
+        text-align: center;
+        margin: 10px 0;
+        border: 3px solid #0b457e;
+      }
+    }
+    &--pages{
+      padding: 80px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      button{
+        padding: 10px 20px;
+        margin: 0 20px;
+        background: #348ce5;
+        color: white;
+        font-size: 20px;
+        border-radius:50px;
+        -webkit-box-shadow: 1px -1px 2px 4px rgb(239, 243, 246);
+        -moz-box-shadow: 1px -1px 2px 4px rgb(239, 243, 246);
+        box-shadow: 1px -1px 2px 4px rgb(239, 243, 246);
+      }
+    }
+  }
+}
